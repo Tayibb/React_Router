@@ -1,0 +1,33 @@
+.success{
+    padding-top: 90px;
+    h3{
+        color: #1D1D1D;
+        font-size: 45px;
+        font-weight: 600;
+    }
+    h6{
+        color: #777777;
+        padding-top: 20px;
+    }
+    .card{
+        box-shadow: none;
+        border: 1px solid #E8E8E8;
+        border-radius: 5px;
+        .card_name{
+            padding-top: 10px;
+            color: #4A4A4A;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .card_p{
+            color: #777777;
+        }
+    }
+    .success_btn{
+        font-size: 20px;
+        font-weight: 600;
+        background: #289BDE;
+        border: 1px solid #289BDE;
+        border-radius: 5px; 
+    }
+}

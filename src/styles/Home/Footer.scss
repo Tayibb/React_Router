@@ -1,0 +1,29 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 472px;
+    background: #161616;
+    margin-top: 90px;
+    h1{
+        font-weight: 600;
+        font-size: 40px;
+        color: #ffffff;
+        text-align: center;
+    }
+    h6{
+        color: #E8E8E8;
+        max-width: 75%;
+        font-size: 16px;
+        text-align: center;
+        padding: 20px 0;
+    }
+    h5{
+        color: #E8E8E8;
+        font-size: 16px;
+        text-align: center;
+        span{
+            padding: 0 7px;
+        }
+    }
+}

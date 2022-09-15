@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    .appBar{
+        background-color: white;
+        color: black;
+        box-shadow: none;
+        padding: 8px 0 0 0 ;
+        .toolBar{
+            padding: 0 !important;
+            .header_logo{
+                font-size: 40px;
+                font-weight: 600; 
+            }
+            .header_items{
+                padding: 5px 24px;
+                text-transform: unset;
+                .items{
+                    text-decoration: none;
+                    font-size: 17px;
+                    color: #777777;
+                }
+            }
+            .header_btn{
+                color: #289BDE;
+                text-transform: unset;
+                font-size: 17px;
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,53 @@
+.feedback{
+    padding-top: 80px;
+    .slide{
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    h2{
+        color: #1D1D1D;
+        font-size: 45px;
+        font-weight: 600;
+        text-align: center;
+    }
+    h6{
+        color: #777777;
+        max-width: 55%;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .feedback_card{
+        width: 97% !important;
+        border: 1px solid #E8E8E8;
+        border-radius: 5px;
+        .feedback_text{
+            color: #777777;
+            font-size: 15px;
+            line-height: 30px;
+            padding: 25px 0;
+        }
+        .client_name{
+            color: #4A4A4A;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .client_about{
+            color: #777777;
+        }
+    }
+    .slick-next{
+        right: 22px;
+        top: 46%;
+    }
+    .slick-prev{
+        z-index: 1000;
+        top: 46%;
+    }
+    .slick-next:before {
+            content: url('../../images/client_right.svg');
+        }
+    
+        .slick-prev:before {
+            content: url('../../images/client_left.svg');
+        }
+}

@@ -1,0 +1,49 @@
+.main_slider{
+        .hero_heading{
+           font-size: 65px;
+           font-weight: 600;
+           color: white;
+           position: absolute;
+           top: 44%;
+           left: 50%;
+           transform: translate(-50%,-44%);
+           z-index: 1000;
+           text-align: center; 
+        }
+        .slider_img {
+            padding-top: 80px;
+            img{
+                max-width: 100%;
+                height: auto;
+            }
+        }
+        .hero_btn{
+            background-color: #289BDE;
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%,-75%);
+            padding: 10px 27px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .slick-next {
+            right: 6%;
+            top: 55%;
+        }
+    
+        .slick-prev {
+            left: 6%;
+            top: 55%;
+            z-index: 1000;
+        }
+    
+        .slick-next:before {
+            content: url('../../images/right.svg');
+        }
+    
+        .slick-prev:before {
+            content: url('../../images/left.svg');
+        }
+}
+

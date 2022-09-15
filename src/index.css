@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'poppins';
+    src: url('../src/fonts/poppins.ttf');
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.poppins{
+    font-family: 'poppins' !important;
+}
+.container{
+    max-width: 1320px !important;
+    margin: 0 auto;
+}

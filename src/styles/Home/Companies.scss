@@ -1,0 +1,29 @@
+.companies{
+    padding-top: 90px;
+    h1{
+        color: #1D1D1D;
+        font-size: 45px;
+        font-weight: 600;
+        text-align: center;
+    }
+    @mixin center {
+        display: flex !important;
+        justify-content: center;
+    }
+    .udemy,.education,.fedEx{
+       @include center;
+    }
+    .indeed{
+        display: flex !important;
+        justify-content: flex-end;
+    }
+    .elecom{
+        display: flex !important;
+        justify-content: flex-end;
+        padding-top: 5px;
+    }
+    .slick-track{
+        display: flex !important;
+        align-items: center;
+    }
+}
