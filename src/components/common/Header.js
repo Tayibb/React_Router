@@ -22,7 +22,7 @@ const navItems = [
         path: "/success",
     },
     {
-        name: "About",
+        name: "Abouttttt",
         path: "/about",
     },
     {
