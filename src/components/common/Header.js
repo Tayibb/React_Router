@@ -26,7 +26,7 @@ const navItems = [
         path: "/about",
     },
     {
-        name: "Register",
+        name: "Registerr",
         path: "/register",
     },
 ];
